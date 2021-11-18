@@ -23,30 +23,32 @@ export default function Header() {
 				<Router>
 					<nav class="grid grid-cols-12 items-center justify-center p-2 bg-matheme-hotpink">
 						<Link class="font-logo col-start-2 col-span-1" to="/">Minha Audoção</Link>
-						<Link class="text-black hover:text-opacity-50 col-span-1" to="/">
-							<div class="grid grid-cols-1 justify-items-center">
-								<HomeSvg class="w-6 h-6" />
-								<p class="text-xs">Inicio</p>
-							</div>
-						</Link>
-						<Link class="text-black hover:text-opacity-50 col-span-1" to="/">
-							<div class="grid grid-cols-1 justify-items-center">
-								<AdoptSvg class="w-6 h-6" />
-								<p class="text-xs">Adote</p>
-							</div>
-						</Link>
-						<Link class="text-black hover:text-opacity-50 col-span-1" to="/">
-							<div class="grid grid-cols-1 justify-items-center">
-								<EventSvg class="w-6 h-6" />
-								<p class="text-xs">Eventos</p>
-							</div>
-						</Link>
-						<Link class="text-black hover:text-opacity-50 col-span-1" to="/">
-							<div class="grid grid-cols-1 justify-items-center">
-								<InstitutionSvg class="w-6 h-6" />
-								<p class="text-xs">Instituições</p>
-							</div>
-						</Link>
+						<div class="col-span-4 flex">
+							<Link class="text-black hover:text-opacity-50 mr-8" to="/">
+								<div class="grid grid-cols-1 justify-items-center">
+									<HomeSvg class="w-6 h-6" />
+									<p class="text-xs">Inicio</p>
+								</div>
+							</Link>
+							<Link class="text-black hover:text-opacity-50 mr-8" to="/">
+								<div class="grid grid-cols-1 justify-items-center">
+									<AdoptSvg class="w-6 h-6" />
+									<p class="text-xs">Adote</p>
+								</div>
+							</Link>
+							<Link class="text-black hover:text-opacity-50 mr-8" to="/">
+								<div class="grid grid-cols-1 justify-items-center">
+									<EventSvg class="w-6 h-6" />
+									<p class="text-xs">Eventos</p>
+								</div>
+							</Link>
+							<Link class="text-black hover:text-opacity-50 mr-8" to="/">
+								<div class="grid grid-cols-1 justify-items-center">
+									<InstitutionSvg class="w-6 h-6" />
+									<p class="text-xs">Instituições</p>
+								</div>
+							</Link>
+						</div>
 						<Link class="text-black hover:text-opacity-50 col-start-10 col-span-1" to="/">
 							<p class="text-lg">Entrar</p>
 						</Link>
